@@ -1,0 +1,105 @@
+*{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  text-decoration-color: black;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+}
+
+li a.active {
+  color: black;
+  background-color: red;
+}
+
+
+br{
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.img-header{
+  text-align: center;
+}
+
+
+
+.img-header1{
+  width: 40%;
+
+}
+
+
+.product-area{
+margin-left:5%;
+margin-top:10%;
+margin-bottom:5%;
+margin-right:5%;
+
+}
+
+.row{
+  text-align: center;
+}
+
+.h1-head{
+  margin-top: 5%;
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 65px;
+}
+
+.h1-col{
+
+}
+
+.col1{
+
+}
+
+.img-size{
+  width:80%;
+}
+
+.shirts-1{
+  column-count: 3;
+  column-gap: 40px;
+}
+
+.bio{
+margin-bottom: 5%;
+}
+
+.listing{
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+
+footer{
+  margin-top: 10%;
+  text-align: center;
+}

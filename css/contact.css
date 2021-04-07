@@ -1,0 +1,97 @@
+*{
+  margin: 0px 0px;
+  padding: 0px 0px;
+  text-decoration-color: black;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+}
+
+li a.active {
+  color: black;
+  background-color: red;
+}
+
+
+br{
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+.img1 {
+  padding: 10px 10px 10px 10px;
+  height: 200px 400px;
+  width: 500px;
+  color: white;
+  float: left;
+}
+
+
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 10%;
+}
+
+.h1-headar{
+  margin-top: 2%;
+  text-align: center;
+}
+
+.M-P{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+}

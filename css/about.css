@@ -1,0 +1,100 @@
+*{
+  margin: 0px 0px;
+  padding: 0px 0px;
+  text-decoration-color: black;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+}
+
+li a.active {
+  color: black;
+  background-color: red;
+}
+
+
+br{
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+.h-1{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.img-1{
+  text-align: center;
+  margin-bottom: 15%;
+}
+
+.about-secs{
+margin-right: 5%;
+margin-left: 5%;
+}
+
+
+.h1-2{
+  font-size: 50px;
+  margin-bottom: 10%
+}
+
+.h1-3{
+  font-size: 25px;
+}
+
+.img-1-2{
+  text-align: center;
+}
+
+
+.img-2{
+
+  width: 60%;
+
+}
+
+.space{
+  text-align: center;
+}
+
+.h1-2-1{
+  margin-top: 10;
+  margin-bottom: 10%;
+}
+
+
+.h1-bio-1{
+
+}
+
+.h4-1{
+margin-top: 5%;
+margin-bottom: 5%; 
+}

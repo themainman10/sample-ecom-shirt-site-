@@ -1,0 +1,270 @@
+*{
+  margin: 0px 0px;
+  padding: 0px 0px;
+  text-decoration-color: black;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+}
+
+li a.active {
+  color: black;
+  background-color: red;
+}
+
+
+br{
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+.img1 {
+  padding: 10px 10px 10px 10px;
+  height: 200px 400px;
+  width: 500px;
+  color: white;
+  float: left;
+}
+
+
+
+.img2{
+  padding: 10px 10px 10px 10px;
+  height: 200px 400px;
+  width: 500px;
+  color: white;
+  float: right;
+}
+
+
+.img3{
+  padding-left: 20%;
+  padding-right: 20%
+  height: 600px 400px;
+  width: 500px;
+  color: white;
+  image-orientation:center
+  text-align: center;
+}
+
+
+
+
+}
+
+.ft1 {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+
+.li20 {
+  text-align: below;
+}
+
+
+
+
+.li20 {
+  text-align: below;
+}
+
+
+
+.li30 {
+  position: center;
+}
+
+
+
+
+.img-home{
+width:100%;
+}
+
+
+.column {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+
+
+}
+
+
+.row {
+
+
+
+}
+
+.container{
+
+}
+
+
+.prod{
+  background-color: red; /* Green */
+border: none;
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.header-img{
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  width: 80%;
+
+}
+
+
+.PB{
+  text-align: center;
+
+
+}
+
+
+
+h1{
+  font-size: 50px;
+}
+
+
+.prod1{
+text-align: center;
+margin: 4px 2px;
+cursor: pointer;
+position: absolute;
+top: 15%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.prod2{
+text-align: center;
+margin: 4px 2px;
+cursor: pointer;
+position: absolute;
+top: 25%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+.sec{
+
+}
+
+.h3-sec1{
+    text-align: center;
+    margin-bottom: 10%;
+
+}
+.sec1{
+  margin-top: 15%;
+  font-size: 50px
+
+}
+
+
+.sub-sec1{
+  height: 600px;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.sub-img{
+  width: 60%;
+
+  margin-bottom: 5%;
+}
+
+.sub-img1{
+  width: 60%;
+  margin-left: 25px;
+
+  float: right;
+}
+
+.bio{
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  font-size: 25px;
+}
+
+
+
+.h6-sec1{
+  margin-left: 2.5%;
+  font-size: 25px;
+}
+
+.img-col{
+  text-align: center;
+}
+
+.h6-sec1{
+  text-align: center;
+  margin-bottom: 1.5%;
+  font-size: 65px;
+}
+
+.h6-sec2{
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 1.5%;
+}
+
+.shirt-sizes{
+  margin-left: 2.5%;
+
+}
+
+
+.h6-1{
+  font-size: 30px;
+}
+
+
+footer{
+  text-align: center;
+}
